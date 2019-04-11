@@ -1,0 +1,6 @@
+app:
+  build: .
+  volumes:
+    - .:/workdir
+  command: sh -c 'tail -f /dev/null'
+
